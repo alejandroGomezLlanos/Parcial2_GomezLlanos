@@ -46,7 +46,6 @@ export default function App() {
   return (
     <>
       <div className="App">
-        <AddCategory onAddCategory={addCategory} />
         <div className="card-grid">
           {images.map((key2, key) => {
             return <GifItem key={key} {...key2} />;
